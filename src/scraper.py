@@ -1,6 +1,6 @@
 import requests
 import re
-import os
+from src.config import DATA_FILE
 
 def scrape_wikipedia(company_name, lang="vi"):
     url = f"https://{lang}.wikipedia.org/w/api.php"
@@ -31,9 +31,8 @@ def scrape_wikipedia(company_name, lang="vi"):
         print(f" [!] Lỗi khi cào dữ liệu {company_name}: {e}")
         return ""
 
-def main():
+def run_scraper():
     # Danh sách các công ty cần cào dữ liệu và ngôn ngữ ưu tiên
-    # Dùng tiếng Anh (en) cho các công ty mới vì wiki tiếng Việt có thể chưa cập nhật
     companies = {
         "OpenAI": "vi",
         "Google": "vi",
@@ -55,8 +54,7 @@ def main():
             # Xóa các khoảng trắng thừa, dòng rỗng
             cleaned_text = re.sub(r'\n+', '\n', text).strip()
             
-            # Tách thành từng câu (dựa trên dấu chấm) để mỗi dòng là 1 câu
-            # Việc này giúp LLM (ở file 1_extractor.py) dễ dàng trích xuất Triples hơn
+            # Tách thành từng câu (dựa trên dấu chấm)
             sentences = [s.strip() + "." for s in cleaned_text.split(".") if len(s.strip()) > 10]
             
             all_text.extend(sentences)
@@ -65,15 +63,7 @@ def main():
     final_corpus = "\n".join(all_text)
     
     # Ghi đè vào data.txt
-    with open("data.txt", "w", encoding="utf-8") as f:
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write(final_corpus)
         
-    print(f"\n=== HOÀN TẤT! Đã lưu {len(all_text)} câu vào data.txt ===")
-    print("Bây giờ bạn có thể chạy lại script ./run.sh để hệ thống tự động:")
-    print("1. Đọc file data.txt mới")
-    print("2. Trích xuất lại Triples mới (tốn token)")
-    print("3. Vẽ lại Graph mới")
-    print("4. Chạy lại Evaluation")
-
-if __name__ == "__main__":
-    main()
+    print(f"\n=== HOÀN TẤT! Đã lưu {len(all_text)} câu vào {DATA_FILE} ===")

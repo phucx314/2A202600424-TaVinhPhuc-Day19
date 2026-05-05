@@ -1,26 +1,72 @@
+import os
 import json
 import networkx as nx
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
+from langchain_community.document_loaders import TextLoader
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnablePassthrough
+from langchain_core.output_parsers import StrOutputParser
 from pydantic import BaseModel, Field
+from src.config import DATA_FILE, TRIPLES_FILE, CHROMA_DB_DIR
 
 load_dotenv()
 
 class EntityExtraction(BaseModel):
     entity: str = Field(description="The main entity mentioned in the question")
 
-def load_graph():
-    with open("triples.json", "r", encoding="utf-8") as f:
-        triples = json.load(f)
+def get_flat_rag_chain():
+    # Load document
+    loader = TextLoader(DATA_FILE, encoding="utf-8")
+    docs = loader.load()
     
+    texts = [t.strip() for t in docs[0].page_content.split('\n') if t.strip()]
+    
+    # print(f"Indexing {len(texts)} sentences for Flat RAG...")
+    
+    vectorstore = Chroma.from_texts(
+        texts=texts,
+        embedding=OpenAIEmbeddings(),
+        collection_name="tech_corpus",
+        persist_directory=CHROMA_DB_DIR
+    )
+    
+    retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+    
+    template = """You are an AI assistant. Answer the question based ONLY on the following context:
+    {context}
+    
+    Question: {question}
+    """
+    prompt = ChatPromptTemplate.from_template(template)
+    llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
+    
+    def format_docs(docs):
+        return "\n\n".join([d.page_content for d in docs])
+        
+    chain = (
+        {"context": retriever | format_docs, "question": RunnablePassthrough()}
+        | prompt
+        | llm
+        | StrOutputParser()
+    )
+    
+    return chain
+
+def load_graph():
+    try:
+        with open(TRIPLES_FILE, "r", encoding="utf-8") as f:
+            triples = json.load(f)
+    except FileNotFoundError:
+        return nx.Graph()
+        
     G = nx.Graph() # Use undirected graph for easier traversal
     for t in triples:
         G.add_edge(t["subject"], t["object"], label=t["relation"])
     return G
 
 def get_subgraph_context(G, start_node, max_hops=2):
-    # Try to find a matching node (case-insensitive search)
     target_node = None
     for n in G.nodes():
         if start_node.lower() in n.lower():
@@ -75,11 +121,3 @@ def ask_graph_rag(question, G=None):
     chain = prompt | llm
     result = chain.invoke({"context": context, "question": question})
     return result.content, main_entity, context
-
-if __name__ == "__main__":
-    q = "Ai là CEO của công ty đã đầu tư vào OpenAI?"
-    ans, entity, ctx = ask_graph_rag(q)
-    print(f"Question: {q}")
-    print(f"Extracted Entity: {entity}")
-    print(f"Graph Context:\n{ctx}")
-    print(f"Answer: {ans}")

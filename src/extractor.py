@@ -1,10 +1,10 @@
-import os
 import json
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from typing import List
+from src.config import DATA_FILE, TRIPLES_FILE
 
 load_dotenv()
 
@@ -18,9 +18,13 @@ class TriplesOutput(BaseModel):
     triples: List[Triple] = Field(description="List of extracted relationship triples")
 
 def extract_triples():
-    print("Reading data.txt...")
-    with open("data.txt", "r", encoding="utf-8") as f:
-        corpus = f.read()
+    print(f"Reading {DATA_FILE}...")
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            corpus = f.read()
+    except FileNotFoundError:
+        print(f"File {DATA_FILE} not found. Please run the scraper first.")
+        return
     
     sentences = [s.strip() for s in corpus.split(".") if s.strip()]
     print(f"Found {len(sentences)} sentences.")
@@ -50,9 +54,6 @@ def extract_triples():
             
     print(f"Extracted a total of {len(all_triples)} triples.")
     
-    with open("triples.json", "w", encoding="utf-8") as f:
+    with open(TRIPLES_FILE, "w", encoding="utf-8") as f:
         json.dump(all_triples, f, ensure_ascii=False, indent=4)
-    print("Saved to triples.json")
-
-if __name__ == "__main__":
-    extract_triples()
+    print(f"Saved to {TRIPLES_FILE}")

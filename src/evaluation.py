@@ -1,10 +1,8 @@
 import time
 import csv
-from importlib import import_module
 from langchain_community.callbacks import get_openai_callback
-
-flat_rag = import_module("3_flat_rag")
-graph_rag = import_module("4_graph_rag")
+from src.rag import get_flat_rag_chain, load_graph, ask_graph_rag
+from src.config import RESULTS_FILE
 
 def run_evaluation():
     questions = [
@@ -31,10 +29,10 @@ def run_evaluation():
     ]
     
     print("Initializing Flat RAG...")
-    flat_chain = flat_rag.get_flat_rag_chain()
+    flat_chain = get_flat_rag_chain()
     
     print("Loading Graph for GraphRAG...")
-    G = graph_rag.load_graph()
+    G = load_graph()
     
     results = []
     
@@ -51,7 +49,7 @@ def run_evaluation():
         # Test Graph RAG
         with get_openai_callback() as cb_graph:
             start_time = time.time()
-            graph_ans, entity, context = graph_rag.ask_graph_rag(q, G)
+            graph_ans, entity, context = ask_graph_rag(q, G)
             graph_time = time.time() - start_time
             graph_tokens = cb_graph.total_tokens
         
@@ -69,7 +67,7 @@ def run_evaluation():
             "Graph RAG Time (s)": round(graph_time, 2)
         })
         
-    with open("results.csv", "w", newline='', encoding="utf-8") as f:
+    with open(RESULTS_FILE, "w", newline='', encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=[
             "Question", "Flat RAG Answer", "Flat RAG Tokens", "Flat RAG Time (s)", 
             "Graph RAG Answer", "Graph RAG Entity", "Graph RAG Tokens", "Graph RAG Time (s)"
@@ -78,7 +76,4 @@ def run_evaluation():
         for row in results:
             writer.writerow(row)
             
-    print("\nSaved evaluation results to results.csv")
-    
-if __name__ == "__main__":
-    run_evaluation()
+    print(f"\nSaved evaluation results to {RESULTS_FILE}")
