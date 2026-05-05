@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+*.env
+
+# Data & Output
+triples.json
+results.csv
+knowledge_graph.html
+*.png
+
+# ChromaDB
+chroma/
