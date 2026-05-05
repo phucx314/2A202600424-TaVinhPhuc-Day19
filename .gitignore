@@ -5,8 +5,5 @@ __pycache__/
 venv/
 .env
 
-# Data & Output
-*.png
-
 # ChromaDB
 chroma/
