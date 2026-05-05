@@ -22,14 +22,15 @@ day019/
 │   ├── knowledge_graph.html  # File HTML tương tác của đồ thị
 │   └── chroma/               # Vector Database cục bộ
 ├── extras/
-│   └── lite version.png      # Ảnh chụp đồ thị Neo4j
+│   ├── lite version.png      # Ảnh chụp đồ thị Neo4j
+│   └── ...                   # Các ảnh chụp đồ thị Neo4j (full version)
 ├── main.py                   # Bảng điều khiển trung tâm (Orchestrator)
 └── run.sh                    # Script khởi chạy tự động
 ```
 
 ## 2. Cách thức hoạt động & Cài đặt
 
-Bạn có thể chạy toàn bộ pipeline tự động từ đầu đến cuối bằng lệnh:
+Chạy toàn bộ pipeline tự động từ đầu đến cuối bằng lệnh:
 ```bash
 bash run.sh
 ```
@@ -43,13 +44,13 @@ Hoặc chạy từng bước độc lập thông qua `main.py`:
 
 ## 3. Trực quan hóa Knowledge Graph (Neo4j)
 
-Dưới đây là hình ảnh đồ thị tri thức được tạo ra sau khi hệ thống phân tích bộ dữ liệu Wikipedia:
+Dưới đây là hình ảnh đồ thị tri thức (bản rút gọn - đầy đủ ở trong folder /extras) được tạo ra sau khi hệ thống phân tích bộ dữ liệu Wikipedia:
 
 ![Knowledge Graph Visualization](extras/lite%20version.png)
 
 ## 4. Kết quả Đánh giá (Evaluation: Flat RAG vs Graph RAG)
 
-Chúng tôi đã tiến hành benchmark trên 20 câu hỏi thực tế. Dưới đây là phân tích tóm tắt:
+Tôi đã tiến hành benchmark trên 20 câu hỏi thực tế. Dưới đây là phân tích tóm tắt:
 
 ### a) Khả năng tránh Ảo giác (Hallucination)
 Flat RAG (dùng tìm kiếm Vector thông thường) bị lỗi ảo giác rất nặng ở những câu hỏi mang tính suy luận hoặc khi các thực thể nằm rải rác:
