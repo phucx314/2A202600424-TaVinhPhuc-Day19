@@ -1,0 +1,1472 @@
+[
+    {
+        "subject": "OpenAI",
+        "relation": "IS_A",
+        "object": "phòng thí nghiệm nghiên cứu trí tuệ nhân tạo"
+    },
+    {
+        "subject": "OpenAI",
+        "relation": "LOCATED_IN",
+        "object": "Mỹ"
+    },
+    {
+        "subject": "OpenAI",
+        "relation": "INCLUDES",
+        "object": "OpenAI Incorporated"
+    },
+    {
+        "subject": "OpenAI LP",
+        "relation": "OPERATES_FOR",
+        "object": "OpenAI Limited Partnership"
+    },
+    {
+        "subject": "OpenAI",
+        "relation": "RESEARCHES",
+        "object": "AI"
+    },
+    {
+        "subject": "OpenAI",
+        "relation": "PURPOSE",
+        "object": "thúc đẩy và phát triển một AI thân thiện"
+    },
+    {
+        "subject": "OpenAI",
+        "relation": "RUNS_ON",
+        "object": "siêu máy tính mạnh thứ năm trên thế giới"
+    },
+    {
+        "subject": "Tổ chức",
+        "relation": "FOUNDED_BY",
+        "object": "Sam Altman, Reid Hoffman, Jessica Livingston, Elon Musk, Ilya Sutskever, Peter Thiel và những người khác"
+    },
+    {
+        "subject": "Tổ chức",
+        "relation": "LOCATED_IN",
+        "object": "San Francisco"
+    },
+    {
+        "subject": "Tổ chức",
+        "relation": "FOUNDED_IN",
+        "object": "2015"
+    },
+    {
+        "subject": "Musk",
+        "relation": "RESIGNED_FROM",
+        "object": "hội đồng quản trị"
+    },
+    {
+        "subject": "Musk",
+        "relation": "SPONSOR_OF",
+        "object": "nhà tài trợ"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "INVESTED_IN",
+        "object": "OpenAI LP"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "INVESTED_IN",
+        "object": "OpenAI LP"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "INVESTED_IN",
+        "object": "OpenAI LP"
+    },
+    {
+        "subject": "Google LLC",
+        "relation": "IS_A",
+        "object": "Company"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS_A",
+        "object": "Công ty trách nhiệm hữu hạn"
+    },
+    {
+        "subject": "Google",
+        "relation": "LOCATED_IN",
+        "object": "Mỹ"
+    },
+    {
+        "subject": "Google",
+        "relation": "SPECIALIZES_IN",
+        "object": "các dịch vụ và sản phẩm liên quan đến Internet"
+    },
+    {
+        "subject": "Google",
+        "relation": "SPECIALIZES_IN",
+        "object": "công nghệ quảng cáo trực tuyến"
+    },
+    {
+        "subject": "Google",
+        "relation": "SPECIALIZES_IN",
+        "object": "công cụ tìm kiếm"
+    },
+    {
+        "subject": "Google",
+        "relation": "SPECIALIZES_IN",
+        "object": "điện toán đám mây"
+    },
+    {
+        "subject": "Google",
+        "relation": "SPECIALIZES_IN",
+        "object": "phần mềm"
+    },
+    {
+        "subject": "Google",
+        "relation": "SPECIALIZES_IN",
+        "object": "phần cứng"
+    },
+    {
+        "subject": "Đây",
+        "relation": "IS_A",
+        "object": "công ty công nghệ Big Four"
+    },
+    {
+        "subject": "Đây",
+        "relation": "COMPETES_WITH",
+        "object": "Amazon"
+    },
+    {
+        "subject": "Đây",
+        "relation": "COMPETES_WITH",
+        "object": "Apple"
+    },
+    {
+        "subject": "Đây",
+        "relation": "COMPETES_WITH",
+        "object": "Facebook"
+    },
+    {
+        "subject": "Google",
+        "relation": "FOUNDED_BY",
+        "object": "Larry Page"
+    },
+    {
+        "subject": "Google",
+        "relation": "FOUNDED_BY",
+        "object": "Sergey Brin"
+    },
+    {
+        "subject": "Larry Page",
+        "relation": "HAS_DEGREE",
+        "object": "PhD"
+    },
+    {
+        "subject": "Sergey Brin",
+        "relation": "HAS_DEGREE",
+        "object": "PhD"
+    },
+    {
+        "subject": "Larry Page",
+        "relation": "GRADUATED_FROM",
+        "object": "Stanford University"
+    },
+    {
+        "subject": "Sergey Brin",
+        "relation": "GRADUATED_FROM",
+        "object": "Stanford University"
+    },
+    {
+        "subject": "Stanford University",
+        "relation": "LOCATED_IN",
+        "object": "California"
+    },
+    {
+        "subject": "Họ",
+        "relation": "OWNERSHIP_OF",
+        "object": "khoảng 14% cổ phần"
+    },
+    {
+        "subject": "Họ",
+        "relation": "CONTROL_OF",
+        "object": "56% quyền biểu quyết của cổ đông"
+    },
+    {
+        "subject": "Họ",
+        "relation": "MERGED_WITH",
+        "object": "Google"
+    },
+    {
+        "subject": "Họ",
+        "relation": "BECAME",
+        "object": "công ty tư nhân"
+    },
+    {
+        "subject": "Họ",
+        "relation": "DATE",
+        "object": "ngày 4 tháng 9 năm 1998"
+    },
+    {
+        "subject": "Google",
+        "relation": "FOUNDED_BY",
+        "object": "Googleplex"
+    },
+    {
+        "subject": "Google",
+        "relation": "LOCATED_IN",
+        "object": "Mountain View, California"
+    },
+    {
+        "subject": "Google",
+        "relation": "RESTRUCTURED_AS",
+        "object": "Alphabet Inc"
+    },
+    {
+        "subject": "Google",
+        "relation": "SUBSIDIARY_OF",
+        "object": "Alphabet"
+    },
+    {
+        "subject": "Google",
+        "relation": "COMPANY_TYPE",
+        "object": "technology company"
+    },
+    {
+        "subject": "Alphabet",
+        "relation": "PARENT_COMPANY_OF",
+        "object": "Google"
+    },
+    {
+        "subject": "Sundar Pichai",
+        "relation": "CEO_OF",
+        "object": "Google"
+    },
+    {
+        "subject": "Larry Page",
+        "relation": "CEO_OF",
+        "object": "Alphabet"
+    },
+    {
+        "subject": "công ty",
+        "relation": "FOUNDED_BY",
+        "object": "khởi tạo"
+    },
+    {
+        "subject": "công ty",
+        "relation": "DEVELOPED_BY",
+        "object": "khởi tạo"
+    },
+    {
+        "subject": "công ty",
+        "relation": "ACQUIRED_BY",
+        "object": "khởi tạo"
+    },
+    {
+        "subject": "công ty",
+        "relation": "MERGED_WITH",
+        "object": "khởi tạo"
+    },
+    {
+        "subject": "công ty",
+        "relation": "PARTNERED_WITH",
+        "object": "khởi tạo"
+    },
+    {
+        "subject": "công ty",
+        "relation": "HAS_CORE_PRODUCT",
+        "object": "Google Tìm kiếm"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Docs"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Sheets"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Slides"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Gmail/Inbox"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Lịch Google"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Drive"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google+"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Allo"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Duo"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Hangouts"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Dịch"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Maps"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Waze"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Earth"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Chế độ xem phố"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "YouTube"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Keep"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Ảnh"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "FOUNDED_BY",
+        "object": "Android"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "FOUNDED_BY",
+        "object": "Google Chrome"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "FOUNDED_BY",
+        "object": "Chrome OS"
+    },
+    {
+        "subject": "Chrome OS",
+        "relation": "BASED_ON",
+        "object": "Google Chrome"
+    },
+    {
+        "subject": "Google",
+        "relation": "COLLABORATED_WITH",
+        "object": "nhà sản xuất điện tử lớn"
+    },
+    {
+        "subject": "Google",
+        "relation": "RELEASED",
+        "object": "Google Pixel"
+    },
+    {
+        "subject": "Google",
+        "relation": "RELEASED",
+        "object": "Google Home"
+    },
+    {
+        "subject": "Google",
+        "relation": "RELEASED",
+        "object": "Google Wifi"
+    },
+    {
+        "subject": "Google",
+        "relation": "RELEASED",
+        "object": "Daydream-tai nghe thực tế ảo"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Fiber"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Project Fi"
+    },
+    {
+        "subject": "Google",
+        "relation": "PROVIDES",
+        "object": "Google Station"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "search engine"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "email provider"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "office suite provider"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "video sharing platform"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "cloud storage provider"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "image provider"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "mobile operating system provider"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "web browser provider"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "ML framework provider"
+    },
+    {
+        "subject": "Google",
+        "relation": "IS",
+        "object": "virtual assistant AI provider"
+    },
+    {
+        "subject": "YouTube",
+        "relation": "IS",
+        "object": "video sharing platform"
+    },
+    {
+        "subject": "YouTube",
+        "relation": "IS",
+        "object": "cloud storage provider"
+    },
+    {
+        "subject": "YouTube",
+        "relation": "IS",
+        "object": "image provider"
+    },
+    {
+        "subject": "YouTube",
+        "relation": "IS",
+        "object": "ML framework provider"
+    },
+    {
+        "subject": "YouTube",
+        "relation": "IS",
+        "object": "virtual assistant AI provider"
+    },
+    {
+        "subject": "Facebook",
+        "relation": "IS",
+        "object": "social media platform"
+    },
+    {
+        "subject": "Google X",
+        "relation": "IS",
+        "object": "search engine"
+    },
+    {
+        "subject": "Google",
+        "relation": "RANKED_BY",
+        "object": "Forbes"
+    },
+    {
+        "subject": "Google",
+        "relation": "RANKED_BY",
+        "object": "Interbrand"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "LOCATED_IN",
+        "object": "Redmond, Washington"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "FOUNDED_BY",
+        "object": "Hoa Kỳ"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "FOUNDED_BY",
+        "object": "Bill Gates"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "FOUNDED_BY",
+        "object": "Paul Allen"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "LARGEST_SOFTWARE_MANUFACTURER",
+        "object": "World"
+    },
+    {
+        "subject": "Nó",
+        "relation": "ALSO_KNOWN_AS",
+        "object": "một trong những công ty có giá trị nhất trên thế giới"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "FOUNDED_BY",
+        "object": "Được thành lập"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "DEVELOPED",
+        "object": "phần mềm trình thông dịch BASIC cho máy Altair 8800"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "DOMINATED",
+        "object": "thị trường hệ điều hành cho máy tính gia đình với MS-DOS"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "IN",
+        "object": "thị trường hệ điều hành cho máy tính gia đình"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "IN",
+        "object": "những năm 1980"
+    },
+    {
+        "subject": "cổ phiếu",
+        "relation": "PHÁT_HÀNH_LẦN_ĐẦU",
+        "object": "thị trường"
+    },
+    {
+        "subject": "cổ phiếu",
+        "relation": "TĂNG_GIÁ",
+        "object": "nhanh chóng"
+    },
+    {
+        "subject": "công ty",
+        "relation": "TẠO_RA",
+        "object": "4 tỷ phú"
+    },
+    {
+        "subject": "công ty",
+        "relation": "TẠO_RA",
+        "object": "12"
+    },
+    {
+        "subject": "000 triệu phú",
+        "relation": "IN",
+        "object": "công ty"
+    },
+    {
+        "subject": "công ty",
+        "relation": "ACQUIRED",
+        "object": "LinkedIn"
+    },
+    {
+        "subject": "công ty",
+        "relation": "ACQUIRED",
+        "object": "Skype Technologies"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "PROVIDES",
+        "object": "phần mềm máy tính và máy chủ"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "PROVIDES",
+        "object": "công cụ tìm kiếm Internet (với Bing)"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "PROVIDES",
+        "object": "thị trường dịch vụ số (với MSN)"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "PROVIDES",
+        "object": "thực tế hỗn hợp (HoloLens)"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "PROVIDES",
+        "object": "điện toán đám mây (Azure)"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "PROVIDES",
+        "object": "môi trường phát triển phần mềm (Visual Studio)"
+    },
+    {
+        "subject": "Steve Ballmer",
+        "relation": "CEO_OF",
+        "object": "Microsoft"
+    },
+    {
+        "subject": "Gates",
+        "relation": "FOUNDED_BY",
+        "object": "Microsoft"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "REORIENTED_TO",
+        "object": "device and service strategy"
+    },
+    {
+        "subject": "Sự thay đổi",
+        "relation": "MERGED_WITH",
+        "object": "Danger Inc"
+    },
+    {
+        "subject": "công ty",
+        "relation": "FOUNDED_BY",
+        "object": "Microsoft"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "FOUNDED_BY",
+        "object": "Microsoft Mobile"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "FOUNDED_BY",
+        "object": "Nokia"
+    },
+    {
+        "subject": "Satya Nadella",
+        "relation": "CEO_OF",
+        "object": "Microsoft"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "FOUNDED_BY",
+        "object": "None"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "COMPETES_WITH",
+        "object": "Android"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "LOCATED_IN",
+        "object": "None"
+    },
+    {
+        "subject": "tập đoàn",
+        "relation": "TARGET_OF",
+        "object": "rất nhiều sự chỉ trích"
+    },
+    {
+        "subject": "tập đoàn",
+        "relation": "INCLUDES",
+        "object": "chỉ trích về độc quyền kinh doanh"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "INVOLVED_IN",
+        "object": "Ủy ban công lý Hoa Kỳ"
+    },
+    {
+        "subject": "Microsoft",
+        "relation": "INVOLVED_IN",
+        "object": "Ủy ban châu Âu"
+    },
+    {
+        "subject": "tập đoàn công nghệ",
+        "relation": "BASED_IN",
+        "object": "Hoa Kỳ"
+    },
+    {
+        "subject": "tập đoàn công nghệ",
+        "relation": "SPECIALIZES_IN",
+        "object": "thiết kế và phát triển các thiết bị điện tử tiêu dùng, phần mềm máy tính cùng dịch vụ trực tuyến"
+    },
+    {
+        "subject": "tập đoàn công nghệ",
+        "relation": "HEADQUARTERED_IN",
+        "object": "Cupertino, California"
+    },
+    {
+        "subject": "Công ty lớn của ngành công nghệ thông tin Hoa Kỳ",
+        "relation": "CÓ",
+        "object": "Amazon"
+    },
+    {
+        "subject": "Công ty lớn của ngành công nghệ thông tin Hoa Kỳ",
+        "relation": "CÓ",
+        "object": "Google"
+    },
+    {
+        "subject": "Công ty lớn của ngành công nghệ thông tin Hoa Kỳ",
+        "relation": "CÓ",
+        "object": "Microsoft"
+    },
+    {
+        "subject": "Công ty lớn của ngành công nghệ thông tin Hoa Kỳ",
+        "relation": "CÓ",
+        "object": "Meta"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "điện thoại thông minh iPhone"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "máy tính bảng iPad"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "máy tính xách tay MacBook"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "máy tính cá nhân Mac"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "máy nghe nhạc di động iPod"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "đồng hồ thông minh Apple Watch"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "máy phát đa phương tiện kỹ thuật số Apple TV"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "tai nghe không dây AirPods"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "tai nghe AirPods Max"
+    },
+    {
+        "subject": "hãng",
+        "relation": "PRODUCES",
+        "object": "loa thông minh HomePod"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "macOS"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "iOS"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "iPadOS"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "watchOS"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "tvOS"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "iTunes"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "Safari"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "Shazam"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "iLife"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "iWork"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "Final Cut Pro"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "Logic Pro"
+    },
+    {
+        "subject": "Apple",
+        "relation": "DEVELOPS",
+        "object": "Xcode"
+    },
+    {
+        "subject": "iTunes Store",
+        "relation": "PART_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "iOS App Store",
+        "relation": "PART_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "Mac App Store",
+        "relation": "PART_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "Apple Arcade",
+        "relation": "PART_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "Apple Music",
+        "relation": "PART_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "Apple TV +",
+        "relation": "PART_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "iMessage",
+        "relation": "PART_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "iCloud",
+        "relation": "PART_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "Apple",
+        "relation": "PROVIDES",
+        "object": "Apple Store"
+    },
+    {
+        "subject": "Apple",
+        "relation": "PROVIDES",
+        "object": "Genius Bar"
+    },
+    {
+        "subject": "Apple",
+        "relation": "PROVIDES",
+        "object": "AppleCare"
+    },
+    {
+        "subject": "Apple",
+        "relation": "PROVIDES",
+        "object": "Apple Pay"
+    },
+    {
+        "subject": "Apple",
+        "relation": "PROVIDES",
+        "object": "Apple Pay Cash"
+    },
+    {
+        "subject": "Apple",
+        "relation": "PROVIDES",
+        "object": "Apple Card"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Steve Jobs"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Steve Wozniak"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Ronald Wayne"
+    },
+    {
+        "subject": "Nó",
+        "relation": "MERGED_INTO",
+        "object": "Apple Computer, Inc"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Steve Jobs"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Steve Wozniak"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Ronald Wayne"
+    },
+    {
+        "subject": "Jobs",
+        "relation": "FOUNDED_BY",
+        "object": "Wozniak"
+    },
+    {
+        "subject": "Jobs",
+        "relation": "HAS_EMPLOYEE",
+        "object": "nhân viên thiết kế máy tính"
+    },
+    {
+        "subject": "Jobs",
+        "relation": "HAS_PRODUCTION_LINE",
+        "object": "dây chuyền sản xuất"
+    },
+    {
+        "subject": "dây chuyền sản xuất",
+        "relation": "STARTS_FROM",
+        "object": "ga ra của Jobs"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "công chúng"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_IN",
+        "object": "1980"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Steve Jobs"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Steve Wozniak"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Ronald Wayne"
+    },
+    {
+        "subject": "giá sản phẩm",
+        "relation": "CAUSED",
+        "object": "vấn đề"
+    },
+    {
+        "subject": "thư viện ứng dụng",
+        "relation": "LIMITED_BY",
+        "object": "giá sản phẩm"
+    },
+    {
+        "subject": "thư viện ứng dụng",
+        "relation": "CAUSED",
+        "object": "vấn đề"
+    },
+    {
+        "subject": "giám đốc điều hành",
+        "relation": "COMPETES_WITH",
+        "object": "giám đốc điều hành"
+    },
+    {
+        "subject": "Wozniak",
+        "relation": "FOUNDED_BY",
+        "object": "Apple"
+    },
+    {
+        "subject": "Jobs",
+        "relation": "FOUNDED_BY",
+        "object": "NeXT"
+    },
+    {
+        "subject": "Apple",
+        "relation": "LOST_MARKET_SHARE_TO",
+        "object": "Microsoft Windows"
+    },
+    {
+        "subject": "Apple",
+        "relation": "OPERATES_IN",
+        "object": "thị trường máy tính cá nhân"
+    },
+    {
+        "subject": "Microsoft Windows",
+        "relation": "IS_EXCLUSIVE_PRODUCT_OF",
+        "object": "Microsoft"
+    },
+    {
+        "subject": "Microsoft Windows",
+        "relation": "IS_USED_ON",
+        "object": "máy tính nhái Intel"
+    },
+    {
+        "subject": "Hội đồng quản trị",
+        "relation": "HIRED",
+        "object": "Gil Amelio"
+    },
+    {
+        "subject": "Hội đồng quản trị",
+        "relation": "EFFORT",
+        "object": "phục hồi công ty"
+    },
+    {
+        "subject": "công ty",
+        "relation": "FACING",
+        "object": "khó khăn về tài chính"
+    },
+    {
+        "subject": "công ty",
+        "relation": "RESTRUCTURED_BY",
+        "object": "Hội đồng quản trị"
+    },
+    {
+        "subject": "công ty",
+        "relation": "FOCUSED_ON",
+        "object": "sản phẩm"
+    },
+    {
+        "subject": "Apple",
+        "relation": "ACQUIRED",
+        "object": "NeXT"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Jobs"
+    },
+    {
+        "subject": "Jobs",
+        "relation": "CEO_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Hồi sinh Think different"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "IMac"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Apple Store"
+    },
+    {
+        "subject": "Apple",
+        "relation": "INVESTED_IN",
+        "object": "nhiều công ty"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "RENAME_TO",
+        "object": "Apple Inc"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Steve Jobs"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Steve Wozniak"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_BY",
+        "object": "Ronald Wayne"
+    },
+    {
+        "subject": "Apple",
+        "relation": "FOUNDED_IN",
+        "object": "1976"
+    },
+    {
+        "subject": "Apple",
+        "relation": "PRODUCT",
+        "object": "iPhone"
+    },
+    {
+        "subject": "Jobs",
+        "relation": "CEO_OF",
+        "object": "Apple"
+    },
+    {
+        "subject": "Jobs",
+        "relation": "RESIGNED",
+        "object": "August 2011"
+    },
+    {
+        "subject": "Jobs",
+        "relation": "SUFFERED_FROM",
+        "object": "health complications"
+    },
+    {
+        "subject": "Tim Cook",
+        "relation": "SUCCEEDED_BY",
+        "object": "Jobs"
+    },
+    {
+        "subject": "Jobs",
+        "relation": "FOUNDED_BY",
+        "object": "công ty"
+    },
+    {
+        "subject": "Jony Ive",
+        "relation": "FOUNDED_BY",
+        "object": "công ty riêng của mình"
+    },
+    {
+        "subject": "Jony Ive",
+        "relation": "CEO_OF",
+        "object": "công ty riêng của mình"
+    },
+    {
+        "subject": "Jony Ive",
+        "relation": "WORKS_WITH",
+        "object": "Apple"
+    },
+    {
+        "subject": "Apple",
+        "relation": "HAS_ANNUAL_REVENUE",
+        "object": "274.5 USD billion"
+    },
+    {
+        "subject": "Apple",
+        "relation": "HAS_FINANCIAL_YEAR",
+        "object": "2020"
+    },
+    {
+        "subject": "Apple",
+        "relation": "LÀ",
+        "object": "công ty công nghệ lớn nhất thế giới"
+    },
+    {
+        "subject": "Apple",
+        "relation": "LÀ",
+        "object": "một trong những công ty giá trị nhất thế giới"
+    },
+    {
+        "subject": "nhà sản xuất điện thoại di động",
+        "relation": "RANKED_THIRD",
+        "object": "thế giới"
+    },
+    {
+        "subject": "nhà sản xuất điện thoại di động",
+        "relation": "COMPETES_WITH",
+        "object": "Samsung"
+    },
+    {
+        "subject": "nhà sản xuất điện thoại di động",
+        "relation": "COMPETES_WITH",
+        "object": "Huawei"
+    },
+    {
+        "subject": "Apple",
+        "relation": "BECAME",
+        "object": "publicly traded company in the US"
+    },
+    {
+        "subject": "Apple",
+        "relation": "VALUED_AT",
+        "object": "1 trillion USD"
+    },
+    {
+        "subject": "Apple",
+        "relation": "BECAME",
+        "object": "company valued at 2 trillion USD"
+    },
+    {
+        "subject": "Apple",
+        "relation": "USES",
+        "object": "147"
+    },
+    {
+        "subject": "nhân viên",
+        "relation": "WORKS_FULL_TIME",
+        "object": "cửa hàng"
+    },
+    {
+        "subject": "cửa hàng",
+        "relation": "LOCATED_IN",
+        "object": "quốc gia"
+    },
+    {
+        "subject": "Nó",
+        "relation": "OPERATES",
+        "object": "ITunes Stores"
+    },
+    {
+        "subject": "Nó",
+        "relation": "IS",
+        "object": "nhà bán lẻ âm nhạc lớn nhất thế giới"
+    },
+    {
+        "subject": "Apple",
+        "relation": "PRODUCES",
+        "object": "sản phẩm"
+    },
+    {
+        "subject": "Apple",
+        "relation": "USES",
+        "object": "toàn thế giới"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "RATED_AS",
+        "object": "thương hiệu có giá trị nhất thế giới"
+    },
+    {
+        "subject": "Apple",
+        "relation": "RECEIVES_CRITICISM",
+        "object": "nhà thầu"
+    },
+    {
+        "subject": "Apple",
+        "relation": "RECEIVES_CRITICISM",
+        "object": "hoạt động môi trường"
+    },
+    {
+        "subject": "Apple",
+        "relation": "RECEIVES_CRITICISM",
+        "object": "hoạt động kinh doanh phi đạo đức"
+    },
+    {
+        "subject": "Apple",
+        "relation": "RECEIVES_CRITICISM",
+        "object": "hành vi chống cạnh tranh"
+    },
+    {
+        "subject": "Apple",
+        "relation": "RECEIVES_CRITICISM",
+        "object": "nguồn gốc của nguyên liệu"
+    },
+    {
+        "subject": "Anthropic",
+        "relation": "HEADQUARTERED_IN",
+        "object": "San Francisco"
+    },
+    {
+        "subject": "Anthropic",
+        "relation": "LOCATED_IN",
+        "object": "San Francisco"
+    },
+    {
+        "subject": "Anthropic",
+        "relation": "BASED_IN",
+        "object": "San Francisco"
+    },
+    {
+        "subject": "Anthropic",
+        "relation": "IS_A",
+        "object": "American artificial intelligence (AI) company"
+    },
+    {
+        "subject": "It",
+        "relation": "DEVELOPED",
+        "object": "range of large language models (LLMs) named Claude"
+    },
+    {
+        "subject": "It",
+        "relation": "FOCUSES_ON",
+        "object": "AI safety"
+    },
+    {
+        "subject": "Anthropic",
+        "relation": "FOUNDED_BY",
+        "object": "former members of OpenAI"
+    },
+    {
+        "subject": "former members of OpenAI",
+        "relation": "FOUNDED_BY",
+        "object": "Anthropic"
+    },
+    {
+        "subject": "Daniela Amodei",
+        "relation": "CEO_OF",
+        "object": "Anthropic"
+    },
+    {
+        "subject": "Dario Amodei",
+        "relation": "CEO_OF",
+        "object": "Anthropic"
+    },
+    {
+        "subject": "company",
+        "relation": "ESTIMATED_VALUE",
+        "object": "$380 billion"
+    },
+    {
+        "subject": "xAI",
+        "relation": "SUBSIDIARY_OF",
+        "object": "SpaceX"
+    },
+    {
+        "subject": "xAI",
+        "relation": "WORKS_IN",
+        "object": "artificial intelligence (AI)"
+    },
+    {
+        "subject": "xAI",
+        "relation": "WORKS_IN",
+        "object": "social media"
+    },
+    {
+        "subject": "xAI",
+        "relation": "WORKS_IN",
+        "object": "technology"
+    },
+    {
+        "subject": "xAI",
+        "relation": "NATIONALITY",
+        "object": "American"
+    },
+    {
+        "subject": "xAI",
+        "relation": "TYPE",
+        "object": "company"
+    },
+    {
+        "subject": "company",
+        "relation": "FOUNDED_BY",
+        "object": "Elon Musk"
+    },
+    {
+        "subject": "company",
+        "relation": "FOUNDED_BY",
+        "object": "team of 11 researchers"
+    },
+    {
+        "subject": "company",
+        "relation": "HAS_PRODUCT",
+        "object": "generative AI chatbot named Grok"
+    },
+    {
+        "subject": "company",
+        "relation": "HAS_PRODUCT",
+        "object": "Grokipedia"
+    },
+    {
+        "subject": "company",
+        "relation": "HAS_PRODUCT",
+        "object": "social network X"
+    },
+    {
+        "subject": "social network X",
+        "relation": "ACQUIRED_BY",
+        "object": "xAI"
+    },
+    {
+        "subject": "Google DeepMind",
+        "relation": "FOUNDED_BY",
+        "object": "Anh"
+    },
+    {
+        "subject": "Google DeepMind",
+        "relation": "FOUNDED_IN",
+        "object": "tháng 9 năm 2010"
+    },
+    {
+        "subject": "Google DeepMind",
+        "relation": "NAME",
+        "object": "DeepMind Technologies"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "ACQUIRED_BY",
+        "object": "Google"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "RENAMED_TO",
+        "object": "(unknown)"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "CREATED",
+        "object": "một mạng lưới thần kinh biết cách học chơi trò chơi video"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "CREATED",
+        "object": "một mạng lưới thần kinh có thể truy cập vào một bộ nhớ ngoài"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "CREATED",
+        "object": "một máy tính bắt chước bộ nhớ ngắn hạn của bộ não con người"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "BECAME_FAMOUS_IN",
+        "object": "2016"
+    },
+    {
+        "subject": "Công ty",
+        "relation": "DEFEATED",
+        "object": "kiện tướng cờ vây chuyên nghiệp"
+    }
+]
